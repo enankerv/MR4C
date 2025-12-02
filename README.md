@@ -51,7 +51,7 @@ The script expects an Excel file with the following column headers:
 
 ## How It Works
 
-1. Reads the Excel file using exceljs (preserves images, styles, formatting)
+1. Reads the Excel file using exceljs
 2. Identifies merged cells in the worksheet
 3. Finds all merged cells specifically in the NOTES column
 4. Extracts the NOTES value from the top-left cell of each merge

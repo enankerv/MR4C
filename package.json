@@ -1,0 +1,13 @@
+{
+  "name": "excel-notes-splitter",
+  "version": "1.0.0",
+  "description": "Script to split merged NOTES column in Excel files",
+  "main": "splitExcelNotes.js",
+  "type": "module",
+  "scripts": {
+    "start": "node splitExcelNotes.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
